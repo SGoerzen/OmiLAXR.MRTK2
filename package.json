@@ -1,0 +1,22 @@
+{
+    "name": "com.rwth.unity.omilaxr.mrtk2",
+    "version": "1.0.0",
+    "displayName": "OmiLAXR.MRTK2",
+    "description": "This is package is delivering a support for MRTK2 SDK.",
+    "unity": "2021.3",
+    "unityRelease": "15f1",
+    "documentationUrl": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.mrtk2/-/wikis/",
+    "changelogUrl": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.mrtk2/-/blob/main/CHANGELOG",
+    "licensesUrl": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.mrtk2/-/blob/main/LICENSE",
+    "dependencies": {
+   },
+   "keywords": [
+      "OmiLAXR",
+      "MRTK2",
+      "Mixed Reality Toolkit 2"
+    ],
+    "author": {
+      "name": "Felix Meinhardt",
+      "email": "felix.meinhardt@rwth-aachen.de"
+    }
+  }

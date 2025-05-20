@@ -1,10 +1,13 @@
-using System.Linq;
+using System.ComponentModel;
 using Microsoft.MixedReality.Toolkit.UI;
 using OmiLAXR.TrackingBehaviours;
+using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace OmilLAXR.Tracking_Behaviours
+namespace OmiLAXR.MRTK2.TrackingBehaviours
 {
+    [AddComponentMenu("OmiLAXR / 3) Tracking Behaviours / Manipulation Tracking Behaviour (MRTK2)"), 
+     Description("Tracks manipulation events of <ObjectManipulator> components.")]
     public class ManipulationTrackingBehaviour : TrackingBehaviour
     {
         public TrackingBehaviourEvent<ObjectManipulator, ManipulationEventData> OnManipulationStarted = new TrackingBehaviourEvent<ObjectManipulator, ManipulationEventData>();

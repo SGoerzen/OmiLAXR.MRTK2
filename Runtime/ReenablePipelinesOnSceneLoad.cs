@@ -1,11 +1,9 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Managers;
 using Microsoft.MixedReality.Toolkit;
 using Microsoft.MixedReality.Toolkit.SceneSystem;
 using OmiLAXR;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ReenablePipelinesOnSceneLoad : MonoBehaviour
 {

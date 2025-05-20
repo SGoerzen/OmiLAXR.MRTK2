@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+#if IMPLEMENTED_EYETRACKING
 using OmiLAXR;
 using OmiLAXR.Composers;
 using OmiLAXR.xAPI.Composers;
-using UnityEngine;
 
 public class EyeTrackingStatementComposer : xApiComposer<EyeTrackingBehaviour>
 {
@@ -83,3 +81,4 @@ public class EyeTrackingStatementComposer : xApiComposer<EyeTrackingBehaviour>
         });
     }
 }
+#endif

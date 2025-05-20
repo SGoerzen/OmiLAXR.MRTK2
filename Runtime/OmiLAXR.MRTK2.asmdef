@@ -1,0 +1,21 @@
+{
+    "name": "OmiLAXR.MRTK2",
+    "rootNamespace": "OmiLAXR.MRTK2",
+    "references": [
+        "GUID:92238810d69db43818b28b85251b4b3c",
+        "GUID:8f840851d92754fd89291b0b86a5a78b",
+        "GUID:a7a4c34601384f9389d5c4207f3c6331",
+        "GUID:8b7cc3e86d77403b8b984c08cbaeaf8f",
+        "Microsoft.MixedReality.Toolkit.Services.InputSystem",
+        "GUID:5b80f9e8c84ce594bbd1284cff4292dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

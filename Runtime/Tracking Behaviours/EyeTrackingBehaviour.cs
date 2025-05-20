@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+#if IMPLEMENTED_EYETRACKING
 using Microsoft.MixedReality.Toolkit.Input;
 using OmiLAXR.TrackingBehaviours;
 using UnityEngine;
@@ -37,3 +36,4 @@ public class EyeTrackingBehaviour : TrackingBehaviour
         }
     }
 }
+#endif

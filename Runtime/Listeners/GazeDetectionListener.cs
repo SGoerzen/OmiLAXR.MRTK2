@@ -1,11 +1,11 @@
-using Microsoft.MixedReality.Toolkit.Input;
-using Microsoft.MixedReality.Toolkit.UI;
+using System.ComponentModel;
 using OmiLAXR.Listeners;
 using UnityEngine;
 
-namespace OmilLAXR.Listeners
+namespace OmiLAXR.MRTK2.Listeners
 {
-    [AddComponentMenu("OmiLAXR / 1) Listeners / <GazeDetection> Gaze Detection Listener")]
+    [AddComponentMenu("OmiLAXR / 1) Listeners / <GazeDetection> Gaze Detection Listener (MRTK2)"),
+    Description("Provides all <GazeDetection> components to pipeline.")]
     public class GazeDetectionListener : Listener
     {
         public bool includeInactive = true;

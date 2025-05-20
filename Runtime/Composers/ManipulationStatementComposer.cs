@@ -1,11 +1,13 @@
-using OmiLAXR;
+using System.ComponentModel;
 using OmiLAXR.Composers;
+using OmiLAXR.MRTK2.TrackingBehaviours;
 using OmiLAXR.xAPI.Composers;
-using OmilLAXR.Tracking_Behaviours;
-using TinCan;
+using UnityEngine;
 
-namespace OmilLAXR.Composers
+namespace OmiLAXR.MRTK2.Composers
 {
+    [AddComponentMenu("OmiLAXR / 4) Composers / Manipulation Statement Composer (MRTK2)"), 
+     Description("Creates statements:\\n- actor moved vrObject with actionName('manipulation started' | 'manipulation ended'), vrObjectName(String) and result position(Vector3), scale(Vector3), rotation(Vector3)")]
     public class ManipulationStatementComposer : xApiComposer<ManipulationTrackingBehaviour>
     {
         public override Author GetAuthor()
