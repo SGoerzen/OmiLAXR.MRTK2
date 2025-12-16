@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "OmiLAXR.MRTK2"
+version: "1.0.0"
+date-released: 2025-08-17
+repository-code: "https://github.com/SGoerzen/OmiLAXR.MRTK2"
+url: "https://omilaxr.dev/"
+license: "AGPL-3.0-or-later"
+authors:
+  - given-names: "Felix"
+    family-names: "Meinhardt"
+    affiliation: "RWTH Aachen University"
+abstract: >
+  OmiLAXR.MRTK2 provides the a collection of components to collect data from MRTK2 SDK environment.
+keywords:
+  - Learning Analytics
+  - XR
+  - Virtual Reality
+  - Augmented Reality
+  - Unity
+  - MRTK2
+preferred-citation:
+  type: software
+  title: "OmiLAXR.MRTK2"
+  version: "1.0.0"
+  date-released: 2025-08-17
+  url: "https://omilaxr.dev/"
+  authors:
+    - given-names: "Felix"
+      family-names: "Meinhardt"
