@@ -3,7 +3,7 @@ message: "If you use this software, please cite it using the metadata below."
 type: software
 title: "OmiLAXR.MRTK2"
 version: "1.0.0"
-date-released: 2025-08-17
+date-released: 2025-05-21
 repository-code: "https://github.com/SGoerzen/OmiLAXR.MRTK2"
 url: "https://omilaxr.dev/"
 license: "AGPL-3.0-or-later"
@@ -24,7 +24,7 @@ preferred-citation:
   type: software
   title: "OmiLAXR.MRTK2"
   version: "1.0.0"
-  date-released: 2025-08-17
+  date-released: 2025-05-21
   url: "https://omilaxr.dev/"
   authors:
     - given-names: "Felix"
