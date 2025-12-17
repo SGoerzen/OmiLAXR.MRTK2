@@ -1,6 +1,6 @@
 {
     "name": "com.rwth.unity.omilaxr.mrtk2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "OmiLAXR.MRTK2",
     "description": "This is package is delivering a support for MRTK2 SDK.",
     "unity": "2021.3",
